@@ -1,0 +1,69 @@
+# Dependencies
+node_modules/
+bower_components/
+.pnp
+.pnp.js
+
+# Secrets / credentials (never commit)
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+
+# OS junk
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+._*
+
+# Editor / IDE temporary files
+*.swp
+*.swo
+*~
+*.sublime-workspace
+.idea/
+
+# Logs & temporary files
+*.log
+npm-debug.log*
+yarn-error.log*
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+~$*
+
+# Node / build tooling caches
+.cache/
+.parcel-cache/
+.eslintcache
+.npm/
+coverage/
+dist/
+build/
+
+# Python caches (tooling scripts)
+__pycache__/
+*.py[cod]
+
+# Large binary artefact — kept on disk, intentionally untracked
+OCR_REAL_LABELS/*.zip
+
+# V59 local development — not for publication
+/.mcp.json
+/.opencode/
+/.roo/
+/.vscode/launch.json
+/V59_CHANGE_A_FOCUSED_VERIFICATION_ZOO.md
+/V59_QUOTA_RESTORE_FAILURE_FOLLOWUP_ZOO.md
+/V59_QUOTA_SAFETY_VERIFICATION_ZOO.md
+/V59_REAL_DEVICE_QUOTA_SMOKE_ZOO.md
+/ortopDesktopOPENCODEV59*
